@@ -16,8 +16,11 @@ Ce projet analyse les données de mobilité urbaine afin d'identifier les tendan
 
 ```bash
 # Cloner le dépôt
-git clone [https://github.com/ton-repo.git](https://github.com/ton-repo.git)
-cd ton-repo
+git clone https://github.com/emmarft/Mobilite-Urbaine.git
+cd scripts
 
 # Installer les dépendances
 pip install -r requirements.txt
+
+# Lancement du script
+python analyse_gtfs.py 
